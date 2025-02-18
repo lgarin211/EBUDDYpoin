@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="lgarin211.presensi.v2" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PRESENSI</name>
+    <description>Aplikasi Presensi Versi 2</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Aplikasi Presensi Super
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- Logo configuration -->
+    <platform name="android">
+        <icon src="res/COS.png" density="mdpi" />
+        <icon src="res/COS.png" density="hdpi" />
+        <icon src="res/COS.png" density="xhdpi" />
+        <icon src="res/COS.png" density="xxhdpi" />
+        <icon src="res/COS.png" density="xxxhdpi" />
+    </platform>
+    <platform name="ios">
+        <icon src="res/COS.png" width="60" height="60" />
+        <icon src="res/COS.png" width="76" height="76" />
+        <icon src="res/COS.png" width="120" height="120" />
+        <icon src="res/COS.png" width="152" height="152" />
+        <icon src="res/COS.png" width="180" height="180" />
+    </platform>
+
+    <!-- Splash screen configuration -->
+    <platform name="android">
+        <splash src="res/COS.png" density="land-mdpi" />
+        <splash src="res/COS.png" density="land-hdpi" />
+        <splash src="res/COS.png" density="land-xhdpi" />
+        <splash src="res/COS.png" density="land-xxhdpi" />
+        <splash src="res/COS.png" density="land-xxxhdpi" />
+    </platform>
+    <platform name="ios">
+        <splash src="res/COS.png" />
+        <splash src="res/COS.png" />
+        <splash src="res/COS.png" />
+    </platform>
+
+    <!-- Default color configuration -->
+
+    <!-- Additional splash screen preferences -->
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="none" />
+    <preference name="SplashScreenDelay" value="1000" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#FF341E9C" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/COS.png" />
+</widget>
